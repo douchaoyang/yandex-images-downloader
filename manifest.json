@@ -1,0 +1,14 @@
+{
+  "name": "Yandex Image Downloader",
+  "description": "Download search result images on Yandex.",
+  "version": "1.0",
+  "minimum_chrome_version": "16.0.884",
+  "permissions": [
+    "downloads",
+    "<all_urls>"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
